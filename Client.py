@@ -5,7 +5,7 @@ from tkinter import scrolledtext
 
 IP = "192.168.39.39"
 PORT = 5001
-MASK = "Geddings" #input("What Is Your Name: ")
+MASK = input("What Is Your Name: ")
 
 class ChatClient:
     def __init__(self, root):
